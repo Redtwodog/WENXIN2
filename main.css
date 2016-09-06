@@ -1,0 +1,76 @@
+html{
+
+}
+.initTitle{
+    color: #FF5A22;
+}
+.bar{
+    background-color: #FF5A22;
+}
+.back{
+    text-decoration: none;
+}
+.pannel_title{
+    display: block;
+    margin: 20px;
+    margin-top: 15%;
+    font-size: 20px;
+}
+header .icon{
+    color: #fff;
+}
+nav .icon{
+    color: #fff;
+}
+nav .tab-label{
+    color: #fff;
+}
+.list-block{
+    margin-top: 0;
+}
+.middle-tool-bar{
+    width:100%;
+    padding-left: 9%;
+    margin-top: 2%;
+    margin-bottom: 12%;
+}
+.cube-icon{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #808080;
+    margin-right: 8%;
+    margin-top: 6%;
+    border-radius: 2px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.cube-icon i{
+    display: block;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 auto;
+    width: 30px;
+    color: #808080;
+}
+.fa-chevron-down{
+    position: absolute;
+    font-size: 20px;
+    right: 10%;
+    bottom: 30%;
+}
+
+.title{
+   color: #fff;
+}
+.pwNow{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #FF5A22;
+}

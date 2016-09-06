@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>J1st IO</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="//g.alicdn.com/sui/sui3/0.0.18/css/sui.min.css">
+    <script src="http://cdn.bootcss.com/Chart.js/2.2.1/Chart.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="page-group">
+    <div class="page" id="Message">
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left back" href="#"></a>
+            <h1 class="title productName"></h1>
+        </header>
+        <div class="content">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-content-inner picker agentIdNow"></div>
+                    <i class="fa fa-chevron-down">
+                    </i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span class="initTitle">Inverter:</span>
+                    <span class="equi"></span>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-inner">
+                        <span class="initTitle">Message:</span>
+                        <span id="agentMessage"></span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="initTitle">UpTime:</span>
+                    <span id="upMessageDate"></span>
+                </div>
+            </div>
+        </div>
+        <nav class="bar bar-tab">
+            <div class="content">
+                <a class="tab-item external back backIndex" href="../weixin.html">
+                    <span class="icon icon-home close-panel back"></span>
+                    <span class="tab-label">Back</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="list-block">
+        <span class="pannel_title">Settings:</span>
+        <div class="item-inner">
+            <div class="middle-tool-bar">
+                <div class="cube-icon">
+                    <a href="#Message">
+                        <i class="fa fa-bell-o"></i>
+                    </a>
+                </div>
+                <div class="cube-icon">
+                    <a href="#Meter">
+                        <i class="fa fa-dashboard"></i>
+                    </a>
+                </div>
+                <div class="cube-icon">
+                    <a href="#Chart">
+                        <i class="fa fa-line-chart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="../ajax.js"></script>
+</body>
+</html>
